@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YuriyBilskiy.github.io/LunaEdgePokemon",
+  "homepage": "https://yuriybilskiy.github.io/LunaEdgePokemon/",
 
   "scripts": {
   "dev": "vite",
