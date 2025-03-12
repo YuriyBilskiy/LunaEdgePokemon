@@ -10,5 +10,25 @@
       "src": "/storybook/(.*)",
       "dest": "/storybook-static/$1"
     }
-  ]
+  ],
+  "redirects": [
+    {
+      "source": "/storybook",
+      "destination": "/storybook/"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/storybook",
+      "destination": "/storybook"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+  
 }
