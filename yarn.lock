@@ -1782,7 +1782,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.6.4.tgz#8b73672ff32a9a703fe735da57a2d795e979a021"
   integrity sha512-kTGJ3aFdmfCFzYaDFGmZWfTXr9xhbUaf0tJ6+nEjc4tME6mFwMI+tTUT6U/J6mJhZuc2DjvIRA7bM0x77dIDqw==
 
-"@storybook/react-vite@8.6.4":
+"@storybook/react-vite@^8.6.4":
   version "8.6.4"
   resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-8.6.4.tgz#b80fb85b9ae297056f8117e406eff8d60eda584a"
   integrity sha512-MEmD6sP2tUI/SYCXCeWGTs8umZj+N0e3DHXCQUz0nCsJH7kuCTTipOTBQvr/GuEstNd7BNG5k8aLIRrXLjAvdA==
