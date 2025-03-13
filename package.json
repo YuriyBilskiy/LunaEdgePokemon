@@ -6,7 +6,7 @@
   "homepage": "https://yuriybilskiy.github.io/LunaEdgePokemon/",
   "scripts": {
   "dev": "vite",
-  "build": "tsc && vite build-all",
+  "build": "tsc && vite build",
     "build-all": "yarn build && yarn build-storybook",
     "build-storybook": "storybook build --output-dir build/storybook",
     "build-storybook:test": "storybook build --output-dir build/storybook --test",

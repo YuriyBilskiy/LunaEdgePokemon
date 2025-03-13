@@ -7,6 +7,7 @@ type Props = {
   value?: string;
   autoFocus?: boolean;
   hover?: boolean;
+  placeholder?: string;
 };
 
 export const Input: React.FC<Props> = ({
@@ -16,17 +17,18 @@ export const Input: React.FC<Props> = ({
   isDisabled,
   autoFocus,
   hover,
+  placeholder,
 }) => {
   return (
     <div>
       <input
         autoFocus={autoFocus}
+        placeholder={placeholder}
         className={`border 
         ${errors ? "border-red-500" : "border-gray-400"} 
         ${hover ? "hover:border-yellow-400" : ""}
         outline-none w-full p-2 rounded-md mb-2  
         ${isDisabled ? "bg-gray-100" : "bg-transparent"} focus:border-yellow-400`}
-        placeholder="Write your name"
         type="text"
         value={value}
         disabled={isDisabled}

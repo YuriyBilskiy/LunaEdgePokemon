@@ -42,10 +42,13 @@ export const Form: React.FC<Props> = ({
         errors={errors.name?.message as string}
         register={register("name")}
         autoFocus={true}
+        placeholder="Write your name"
       />
       <Input
         errors={errors.name?.message as string}
         register={register("lastName")}
+        placeholder="Write your last name"
+
       />
 
       <div className="w-full mt-4">

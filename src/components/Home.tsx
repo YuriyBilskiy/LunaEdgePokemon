@@ -29,7 +29,7 @@ export const Home = () => {
         <img className="pb-4" width={400} height={400} src={logo} alt="logo" />
       </div>
 
-      <div className="w-[1330px] mx-auto">
+      <div className="max-w-[1330px] w-full mx-auto">
         <Form
           pokemonsList={pokemonsList}
           setSelectedTeam={setSelectedTeam}
